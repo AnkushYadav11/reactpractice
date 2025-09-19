@@ -22,6 +22,8 @@ export default function Textutils(props) {
                     <h5>Number of chars {text.length}</h5>
                     <h5>Time to read {0.008 * text.split(" ").length} minutes</h5>
                     <h5>Number of word {text.split(' ').length - 1}</h5>
+                    <h5>Preview</h5>
+                    <p>{text === '' ? 'Please enter some text':text}</p>
                 </div>
             </div>
         </>
